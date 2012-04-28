@@ -1,39 +1,8 @@
 #!/usr/bin/env bash
-#
-# This theme was obviously inspired a lot by
-#
-# - Demula theme
-#
-# which in itself was inspired by :
-#
-# - Ronacher's dotfiles (mitsuhikos) - http://github.com/mitsuhiko/dotfiles/tree/master/bash/
-# - Glenbot - http://theglenbot.com/custom-bash-shell-for-development/
-# - My extravagant zsh - http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
-# - Monokai colors - http://monokai.nl/blog/2006/07/15/textmate-color-theme/
-# - Bash_it modern theme
-#
-# Hawaii50 theme supports :
-#
-# - configurable directory length
-# - hg, svn, git detection (I work in all of them)
-# - virtualenv, rvm + gemsets
-#
-# Screenshot: http://i.imgur.com/4IAMJ.png
-#
-# by Ryan Kanno <ryankanno@localkinegrinds.com>
-#
-# And yes, we code out in Hawaii. :D
-#
-# Note: I also am really new to this bash scripting game, so if you see things
-# that are flat out wrong, or if you think of something neat, just send a pull
-# request.  This probably only works on a Mac - as some functions are OS
-# specific like getting ip, etc.
-#
 
-# IMPORTANT THINGS TO CHANGE ==================================================
+#liku theme
+#based on hawai and doubletime_multiline themes
 
-# Show IP in prompt
-# One thing to be weary about if you have slow Internets
 IP_ENABLED=1
 
 # virtual prompts
