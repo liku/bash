@@ -18,8 +18,8 @@ export BASH_IT_THEME='liku'
 export GIT_HOSTING='git@git.domain.com'
 
 # Set my editor and git editor
-export EDITOR="/usr/bin/mate -w"
-export GIT_EDITOR='/usr/bin/mate -w'
+export EDITOR="/usr/bin/mvim -v"
+export GIT_EDITOR='/usr/bin/mvim -v'
 
 # Set vcprompt executable path for scm advance info in prompt (demula theme)
 # https://github.com/xvzf/vcprompt
