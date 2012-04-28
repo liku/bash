@@ -1,0 +1,1 @@
+/Users/liku/.bash_it/completion/available/fabric-completion.bash
