@@ -179,12 +179,10 @@ function prompt() {
 
     if [[ $VIRTUAL_PROMPT_ENABLED == 1 ]]; then
         PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(virtual_prompt_info)$(scm_prompt_info)${reset_color}
-\w
 $reset_color $ "
 #      \$ "
     else
         PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(scm_prompt_info)${reset_color}
-\w
 $reset_color $ "
 #      \$ "
     fi
