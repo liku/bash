@@ -185,12 +185,12 @@ $(doubletime_scm_prompt)$reset_color $ "
 
         PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(virtual_prompt_info)$(scm_prompt_info)${reset_color}
 \w
-$(doubletime_scm_prompt)$reset_color $ "
+$reset_color $ "
 #      \$ "
     else
         PS1="$(scm_char) ${UC}\u ${DEFAULT_COLOR}at ${MACHINE_COLOR}\h$(ip_prompt_info) ${DEFAULT_COLOR}in ${DIRECTORY_COLOR}$(limited_pwd)${DEFAULT_COLOR}$(scm_prompt_info)${reset_color}
 \w
-$(doubletime_scm_prompt)$reset_color $ "
+$reset_color $ "
 #      \$ "
     fi
     PS2='> '
